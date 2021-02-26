@@ -1,0 +1,68 @@
+body{
+    background-color:rgb(34, 33, 32);
+}
+/* Meal Search */
+#food-result {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+.form-control{
+    font-family: Arial, 'Font Awesome 5 Free' !important;
+}
+
+.meal-item {
+    border-radius: 20px;
+    border: 1px solid;
+    overflow: hidden;
+    margin: 2rem 0;
+    background-color: rgb(243, 243, 243);
+}
+
+.meal-img img {
+    width: 350px;
+    display: block;
+}
+
+.meal-name {
+    padding: 1.5rem 0.5rem;
+    text-align: center;
+}
+
+.meal-name:hover {
+    color: lightcoral;
+}
+
+.notFound {
+    grid-template-columns: 1fr !important;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+}
+
+/* Meal Details */
+#food-instructions {
+    margin-left: 33%;
+}
+
+.meal-ingredients {
+    width: 50%;
+    border-radius: 20px;
+    border: 1px solid;
+    overflow: hidden;
+    margin: 2rem 0;
+    background-color: rgb(243, 243, 243);
+}
+
+.meal-ingredients img {
+    width: 100%;
+    display: block;
+
+}
+
+.meal-instruction-name {
+    padding: 1.5rem 0.5rem;
+
+}
